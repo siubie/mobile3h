@@ -1,3 +1,3 @@
-# Pertemuan 01
+# Week 01
 
-Buatlah Rangkuman Pertemuan Pertama
+Create summary of this week lecture

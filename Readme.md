@@ -1,10 +1,8 @@
-# Panduan
+# Guide
 
-Silahkan fork repository ini ke dalam akun GitHub anda. Tambahkan rangkuman
-materi dengan format nama file `nomor presensi-Nama Lengkap`. Contoh: `00-Nama Lengkap Anda.md`. Silahkan lakukan pull request untuk mengumpulkan rangkuman
-yang telah anda buat.
+Please fork this repository into your GitHub account. Add a summary of the material with the filename format `presence number-Full Name`. Example: `00-Your Full Name.md`. Please do a pull request to collect the summary that you have made.
 
-## Referensi
+## Referrence
 
 - [Fork Repo](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
 - [Pull Requests](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
