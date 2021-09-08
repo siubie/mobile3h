@@ -1,0 +1,93 @@
+== WHAT IS ANDROID ==
+- Android is a software stack for mobile devices that provides tools and APIs to develop apps
+
+== THE MAJOR COMPONENTS ==
+- Applications
+Ships with core set of apps. Developers have access to core APIs
+  *Views used to build application
+  *Content providers – access data from other apps
+  *Resource manager – access to local strings, graphics
+  *Notification manager – display custom alerts
+  *Activity manager – manages app lifecycle
+
+- Applications Framework
+- Libraries
+   *C/C++
+   *Media libraries – A/V, images
+   *Surface manager – 2D/3D graphic layers
+   *LibWebCore – web browser engine
+   *SGL – 2D graphics engine
+   *3D – hardware or software acceleration
+   *FreeType – BMP and vector fonts
+   *SQLite – database engine
+
+- Linux Kernel & runtimes
+-Includes core set of libraries
+  *Provides most of core Java libraries
+  *Each app runs in its own process
+     *Own instance of  the Dalvik Virtual Machine
+-Linux 2.6 is used for core system services
+  *Abstraction layer between HW & SW stacks
+
+== ACTIVITY ==
+- Single page user interface
+- Most apps have multiple activities
+- Callable from other apps (if you allow it)
+
+== SERVICE, CONTENT PROVIDER, BROADCAST RECEIVER & INTENTS ==
+SERVICE
+- No user interface
+- Runs in background
+- Started and stopped by activities
+
+CONTENT PROVIDER
+- Manages shared set of application data
+- Data may be shared between apps or be private
+- Performs data handling functions
+
+BROADCAST RECEIVER
+- Listens for system wide (intent) broadcasts
+- Similar to an interrupt handler
+   *Redirects to appropriate activity or service
+
+INTENTS
+- Allows an activity, service or broadcast receiver to link to another
+
+== UI (USER INTERFACE) ==
+- Recall the basic unit of an Android application is an Activity
+- View objects are data structures that store content and layout parameters 
+   *controls a specific rectangular region of the screen
+   *responsible for drawing itself
+   *handles events
+- User Interfaces are built from View and ViewGroup object instances of the View class
+- Subclass  “widgets” provide user interface objects:
+   *text fields, buttons, labels
+   *serves as means of interaction with user
+- View & view group:
+   *ViewGroup objects act like containers for View objects
+   *Subclass “layouts” provide different layout architectures
+   *RelativeLayout – displays Views in relative position to each other
+(view group)
+- TableLayout – displays Views in table form with rows and columns
+- Some other layouts from base class android.view.ViewGroup:
+  *AbsoluteLayout
+  *FrameLayout
+  *ScrollView
+
+== Application Menu ==
+- Options menus allow users quick access to an application’s functions, preferences and settings
+- Structured using a View hierarchy
+  *define onCreateOptionsMenu()
+  *define onCreateContectMenu()
+- Handle their own events, no need to register event  listeners
+- Selections handled by methods
+  *onOptionsItemSelected()
+  *onContextItemSelected()
+- Items for menus can be declared in an XML file like an application layout
+
+== MANU ==
+- Options menus allow users quick access to an application’s functions, preferences and settings
+- Structured using a View hierarchy
+  *define onCreateOptionsMenu()
+  *define onCreateContectMenu()
+- Handle their own events, no need to register event  listeners
