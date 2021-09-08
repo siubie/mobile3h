@@ -1,0 +1,57 @@
+Android is Software stack for mobile devices
+
+Main Components in Android Application :
+1. Activity = representation of application’s screen.
+2. Services = background process that is used to perform long-running operations. ex: playing music in background, alarm, GPS, message receiver.
+3. Broadcast Receiver = component that allows the application to send and receive events to/from other applications. ex.: receive battery status warning, send phone in calling status
+4. Content Provider = component to manage a set of data from any source.
+
+Intents = Allows an activity, service or broadcast receiver to link to another
+
+
+An Activity displays the user interface. User Interfaces are built from View and ViewGroup object instances of the View class. View objects are data structures that store content and layout parameters 
+-controls a specific rectangular region of the screen
+-responsible for drawing itself
+-handles events
+Subclass  “widgets” provide user interface objects:
+-text fields, buttons, labels
+-serves as means of interaction with user
+
+
+ViewGroup objects act like containers for View objects. one or more Views are grouped together
+Subclass “layouts” provide different layout architectures:
+- LinearLayout – displays Views in linear direction either horizontally or vertically
+- RelativeLayout – displays Views in relative position to each other
+- TableLayout – displays Views in table form with rows and columns
+- Some other layouts from base class android.view.ViewGroup:AbsoluteLayout, FrameLayout, ScrollView
+
+
+Input Events
+Define to inform the system of user interaction
+Event listener is defined  and registered with the View object
+- View class has a collection of On<SomeEvent>Listener:
+- View.OnClickListener
+- View.OnTouchListener
+- View.OnKeyListener
+
+
+Application Menus
+Two types of menus
+Options menu –  typically when an application is running
+accessed by pressing the MENU button on the device
+Context menu – typically used for displaying specific information about an item
+accessed by pressing and hold down on an object
+
+
+Sensors = public class SensorActivity extends Activity, implements SensorEventListener { …
+
+
+Bluetooth 
+BluetoothAdapter - Local radio state, Discover devices
+BluetoothServerSocket - Receives connection requests ,Returns a BluetoothSocket when connected
+BluetoothSocket - InputStream object ,OutputStream object
+
+
+Location
+LocationManager locman = (LocationManager) getSystemService(Context.LOCATION_SERVICE)
+Location loc = locman.getLastKnownLocation(String provider)
