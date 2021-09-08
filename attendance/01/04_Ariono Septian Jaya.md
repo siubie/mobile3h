@@ -3,7 +3,7 @@
 2.Software stack for mobile devices
 3.SDK provides tools and APIs to develop apps
 
->> Major Component
+>>  Major Component
 1.Application :
     > core set of apps,that writen in java.
        > Developers have access to core APIs
