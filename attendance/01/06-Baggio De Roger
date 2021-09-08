@@ -1,0 +1,5 @@
+In today's material, we have discussed about the overall goal of the course.We also learned about the fundamentals of Android.To define it plainly, Android is a software stack 
+to  develop apps on mobile devices.The main components of Android are activities which is composed of multiple activity(single page user interface), services which 
+runs in background, content providers which handle data, broadcast receivers which redirect users to appropriate activity or service. Next there is User Interface basics, 
+it is built from view and viewgroup.We have also talked about application menus and the types of menus used for Andorid app development. There are also the Hardware systems 
+or sensors that have been discussed.Lastly, we discussed about Bluetooth, Location and Location Listener.
