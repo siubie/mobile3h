@@ -1,24 +1,32 @@
-Summary of Meeting Material 01
-The discussion of the material at meeting 1 was the introduction of students to Mobile Programming. Below is a summary or point of the discussion:
+**Name : Rajendra Rakha Arya P**
 
-In Mobile Programming like Android, you can apply various components which will be compared into an Android application.
+**NIM  : 1941720080**
 
-There are lots of tools that can be used to create Android applications such as Android Studio, Flutter, React Native, etc. Each of these tools certainly has advantages and disadvantages.
+----
 
-During the development and build of the application there are several stages including:
+## Summary of Meeting Material 01
 
-The process of creating or designing an application page layout
+**The discussion of the material at meeting 1 was the introduction of students to Mobile Programming. Below is a summary or point of the discussion:**
 
-In this layout design process, you can use .xml
+*In Mobile Programming like Android, you can apply various components which will be compared into an Android application.*
 
-Create a logical flow of the application created
+### There are lots of tools that can be used to create Android applications such as Android Studio, Flutter, React Native, etc. Each of these tools certainly has advantages and disadvantages.
 
-In the process of making the Logic usually use files with the extension .java
+*During the development and build of the application there are several stages including:*
+---
 
-App build process
+1. The process of creating or designing an application page layout
 
-Application testing process
+2. In this layout design process, you can use .xml
 
-In this process, it is intended that the results displayed with the coding are the same without any errors or bugs. Tools used for testing such as JUnit, Roboletric etc.
+3. Create a logical flow of the application created
 
-And the last one is Deployment
+4. In the process of making the Logic usually use files with the extension .java
+
+5. App build process
+
+6. Application testing process
+
+7. In this process, it is intended that the results displayed with the coding are the same without any errors or bugs. Tools used for testing such as JUnit, Roboletric etc.
+
+8. And the last one is Deployment
